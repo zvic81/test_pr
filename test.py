@@ -7,13 +7,13 @@ tasks = [
         'id': 1,
         'title': u'Buy groceries',
         'description': u'BEEERRRR, Cheese, Pizza, Fruit, Tylenol',
-        'done': False
+        'done': True
     },
     {
         'id': 2,
         'title': u'Learn Java',
         'description': u'Need to find a good Python tutorial on the web',
-        'done': False
+        'done': True
     }
 ]
 @app.route('/todo/api/v1.0/tasks', methods=['GET'])
