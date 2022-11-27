@@ -6,13 +6,13 @@ tasks = [
     {
         'id': 1,
         'title': u'Buy groceries',
-        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol', 
+        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol',
         'done': False
     },
     {
         'id': 2,
         'title': u'Learn Python',
-        'description': u'Need to find a good Python tutorial on the web', 
+        'description': u'Need to find a good Python tutorial on the web',
         'done': False
     }
 ]
@@ -34,4 +34,4 @@ def create_task():
     return jsonify({'task': task}), 201
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
